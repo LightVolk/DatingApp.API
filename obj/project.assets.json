@@ -20,6 +20,15 @@
           "lib/netcoreapp2.1/Microsoft.Bcl.HashCode.dll": {}
         }
       },
+      "Microsoft.CSharp/4.7.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
+        }
+      },
       "Microsoft.Data.Sqlite.Core/3.1.0": {
         "type": "package",
         "dependencies": {
@@ -80,6 +89,22 @@
           "lib/netstandard2.0/_._": {}
         }
       },
+      "Microsoft.EntityFrameworkCore.Design/3.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0",
+          "Microsoft.EntityFrameworkCore.Relational": "3.1.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Design.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Design.dll": {}
+        },
+        "build": {
+          "build/netcoreapp2.0/Microsoft.EntityFrameworkCore.Design.props": {}
+        }
+      },
       "Microsoft.EntityFrameworkCore.Relational/3.1.0": {
         "type": "package",
         "dependencies": {
@@ -118,6 +143,18 @@
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Sqlite.dll": {}
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Tools/3.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Design": "3.1.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/_._": {}
         }
       },
       "Microsoft.Extensions.Caching.Abstractions/3.1.0": {
@@ -460,6 +497,75 @@
         "version.txt"
       ]
     },
+    "Microsoft.CSharp/4.7.0": {
+      "sha512": "pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
+      "type": "package",
+      "path": "microsoft.csharp/4.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/netcore50/Microsoft.CSharp.dll",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.3/Microsoft.CSharp.dll",
+        "lib/netstandard2.0/Microsoft.CSharp.dll",
+        "lib/netstandard2.0/Microsoft.CSharp.xml",
+        "lib/portable-net45+win8+wp8+wpa81/_._",
+        "lib/uap10.0.16299/_._",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "microsoft.csharp.4.7.0.nupkg.sha512",
+        "microsoft.csharp.nuspec",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/netcore50/Microsoft.CSharp.dll",
+        "ref/netcore50/Microsoft.CSharp.xml",
+        "ref/netcore50/de/Microsoft.CSharp.xml",
+        "ref/netcore50/es/Microsoft.CSharp.xml",
+        "ref/netcore50/fr/Microsoft.CSharp.xml",
+        "ref/netcore50/it/Microsoft.CSharp.xml",
+        "ref/netcore50/ja/Microsoft.CSharp.xml",
+        "ref/netcore50/ko/Microsoft.CSharp.xml",
+        "ref/netcore50/ru/Microsoft.CSharp.xml",
+        "ref/netcore50/zh-hans/Microsoft.CSharp.xml",
+        "ref/netcore50/zh-hant/Microsoft.CSharp.xml",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard1.0/Microsoft.CSharp.dll",
+        "ref/netstandard1.0/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/de/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/es/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/fr/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/it/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/ja/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/ko/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/ru/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/zh-hans/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/zh-hant/Microsoft.CSharp.xml",
+        "ref/netstandard2.0/Microsoft.CSharp.dll",
+        "ref/netstandard2.0/Microsoft.CSharp.xml",
+        "ref/portable-net45+win8+wp8+wpa81/_._",
+        "ref/uap10.0.16299/_._",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
     "Microsoft.Data.Sqlite.Core/3.1.0": {
       "sha512": "2AZt29WBUiIcPxl5lW2sMnVk7iJ3NmtP6KV57aPc4dMHZrKWAeKCLpNfZwy4VBKUw7rO0DumL1nkUHObAZNLmw==",
       "type": "package",
@@ -535,6 +641,22 @@
         "packageIcon.png"
       ]
     },
+    "Microsoft.EntityFrameworkCore.Design/3.1.0": {
+      "sha512": "zxyus0fUcAhst5Essf2g+GFgKN7BCITJ004DR4uAkLkn8lLS5MoxNDCBNjCF5lGrNx7a6wBaqQE7tgt7Ss2Hog==",
+      "type": "package",
+      "path": "microsoft.entityframeworkcore.design/3.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/net461/Microsoft.EntityFrameworkCore.Design.props",
+        "build/netcoreapp2.0/Microsoft.EntityFrameworkCore.Design.props",
+        "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Design.dll",
+        "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Design.xml",
+        "microsoft.entityframeworkcore.design.3.1.0.nupkg.sha512",
+        "microsoft.entityframeworkcore.design.nuspec",
+        "packageIcon.png"
+      ]
+    },
     "Microsoft.EntityFrameworkCore.Relational/3.1.0": {
       "sha512": "eeiqVqzXVuwQsUbqXMyXSEUn/EHB9zmDsr5f/+v6uEt0ir7pgItuIi3I7QV4xvM/s0KbFsqGUOrAFPeRHE3plg==",
       "type": "package",
@@ -574,6 +696,30 @@
         "microsoft.entityframeworkcore.sqlite.core.3.1.0.nupkg.sha512",
         "microsoft.entityframeworkcore.sqlite.core.nuspec",
         "packageIcon.png"
+      ]
+    },
+    "Microsoft.EntityFrameworkCore.Tools/3.1.0": {
+      "sha512": "b209nM8vHZXKG6hqZH2cYLpSVEmty9aDZf2gcYyJhpaEhf94AGdRfh8mlZCclJudjk07B37ebRysT1G//0IRzQ==",
+      "type": "package",
+      "path": "microsoft.entityframeworkcore.tools/3.1.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/_._",
+        "microsoft.entityframeworkcore.tools.3.1.0.nupkg.sha512",
+        "microsoft.entityframeworkcore.tools.nuspec",
+        "packageIcon.png",
+        "tools/EntityFrameworkCore.PS2.psd1",
+        "tools/EntityFrameworkCore.PS2.psm1",
+        "tools/EntityFrameworkCore.psd1",
+        "tools/EntityFrameworkCore.psm1",
+        "tools/about_EntityFrameworkCore.help.txt",
+        "tools/init.ps1",
+        "tools/net461/any/ef.exe",
+        "tools/net461/win-x86/ef.exe",
+        "tools/netcoreapp2.0/any/ef.dll",
+        "tools/netcoreapp2.0/any/ef.runtimeconfig.json"
       ]
     },
     "Microsoft.Extensions.Caching.Abstractions/3.1.0": {
@@ -1028,7 +1174,9 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Microsoft.EntityFrameworkCore >= 3.1.0",
-      "Microsoft.EntityFrameworkCore.Sqlite >= 3.1.0"
+      "Microsoft.EntityFrameworkCore.Design >= 3.1.0",
+      "Microsoft.EntityFrameworkCore.Sqlite >= 3.1.0",
+      "Microsoft.EntityFrameworkCore.Tools >= 3.1.0"
     ]
   },
   "packageFolders": {
@@ -1038,17 +1186,17 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "H:\\Projects\\DatingApp\\DatingApp.API\\DatingApp.API.csproj",
+      "projectUniqueName": "h:\\Projects\\DatingApp\\DatingApp.API\\DatingApp.API.csproj",
       "projectName": "DatingApp.API",
-      "projectPath": "H:\\Projects\\DatingApp\\DatingApp.API\\DatingApp.API.csproj",
+      "projectPath": "h:\\Projects\\DatingApp\\DatingApp.API\\DatingApp.API.csproj",
       "packagesPath": "C:\\Users\\Simplevolk\\.nuget\\packages\\",
-      "outputPath": "H:\\Projects\\DatingApp\\DatingApp.API\\obj\\",
+      "outputPath": "h:\\Projects\\DatingApp\\DatingApp.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "H:\\Projects\\DatingApp\\NuGet.Config",
+        "h:\\Projects\\DatingApp\\NuGet.Config",
         "C:\\Users\\Simplevolk\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1057,7 +1205,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "http://localhost:5000/v3/index.json": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1078,7 +1225,15 @@
             "target": "Package",
             "version": "[3.1.0, )"
           },
+          "Microsoft.EntityFrameworkCore.Design": {
+            "target": "Package",
+            "version": "[3.1.0, )"
+          },
           "Microsoft.EntityFrameworkCore.Sqlite": {
+            "target": "Package",
+            "version": "[3.1.0, )"
+          },
+          "Microsoft.EntityFrameworkCore.Tools": {
             "target": "Package",
             "version": "[3.1.0, )"
           }
