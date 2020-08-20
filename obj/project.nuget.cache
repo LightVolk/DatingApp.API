@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "i2MGfCsik/dyq/z6W7S2hR5kGQKaz4HxQr85ROMqOpFyQZXLyLE7ngmqqkT3cFtpzVEaid6zB88fccP+mpfLFQ==",
+  "dgSpecHash": "eE8WHWJpfZK0slN64aSqrAE/6ro4CczZildhqbs28MxlyINRArNwypOCFWWM1GlqXyvV0RDNowysVKnckmikUw==",
   "success": true,
-  "projectFilePath": "H:\\Projects\\DatingApp\\DatingApp.API\\DatingApp.API.csproj",
+  "projectFilePath": "H:\\Projects\\DatingApp.All\\DatingApp\\DatingApp.API\\DatingApp.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Simplevolk\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
     "C:\\Users\\Simplevolk\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
