@@ -92,3 +92,11 @@ H:\Projects\DatingApp.All\DatingApp\DatingApp.API\obj\Debug\netcoreapp3.1\static
 H:\Projects\DatingApp.All\DatingApp\DatingApp.API\obj\Debug\netcoreapp3.1\DatingApp.API.dll
 H:\Projects\DatingApp.All\DatingApp\DatingApp.API\obj\Debug\netcoreapp3.1\DatingApp.API.pdb
 H:\Projects\DatingApp.All\DatingApp\DatingApp.API\obj\Debug\netcoreapp3.1\DatingApp.API.genruntimeconfig.cache
+H:\Projects\DatingApp.All\DatingApp\DatingApp.API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+H:\Projects\DatingApp.All\DatingApp\DatingApp.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+H:\Projects\DatingApp.All\DatingApp\DatingApp.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+H:\Projects\DatingApp.All\DatingApp\DatingApp.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+H:\Projects\DatingApp.All\DatingApp\DatingApp.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+H:\Projects\DatingApp.All\DatingApp\DatingApp.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+H:\Projects\DatingApp.All\DatingApp\DatingApp.API\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+H:\Projects\DatingApp.All\DatingApp\DatingApp.API\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
